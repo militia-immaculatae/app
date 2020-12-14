@@ -22,6 +22,7 @@ class Onboarding extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
+                Image.asset("assets/img/argon-logo-onboarding.png", scale: 1),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.end,
@@ -29,17 +30,16 @@ class Onboarding extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.only(right: 48.0),
                       child: Text.rich(TextSpan(
-                        text: "Militia Immaculatae",
+                        text: "Design System",
                         style: TextStyle(
                             color: Colors.white,
-                            fontSize: 40,
+                            fontSize: 58,
                             fontWeight: FontWeight.w600),
                       )),
                     ),
                     Padding(
                       padding: const EdgeInsets.only(top: 24.0),
-                      child: Text(
-                          "Du willst nichts mehr von der Militia Immaculatae verpassen?",
+                      child: Text("Fully coded Flutter widgets and screens.",
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: 18,
@@ -63,7 +63,7 @@ class Onboarding extends StatelessWidget {
                       child: Padding(
                           padding: EdgeInsets.only(
                               left: 16.0, right: 16.0, top: 12, bottom: 12),
-                          child: Text("LOS GEHTS",
+                          child: Text("GET STARTED",
                               style: TextStyle(
                                   fontWeight: FontWeight.w600,
                                   fontSize: 16.0))),
